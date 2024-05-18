@@ -45,6 +45,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-left: 10px; 
 }
 button:hover {
   border-color: #646cff;
@@ -63,8 +64,13 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
-  }
+    background-color: #9c9b9b;
+    padding: 5px 10px;
+
+  input[type="text"] {
+      padding: 5px;
+
+  }}
 }
 
 .chat-container {
@@ -103,6 +109,7 @@ main {
   padding: 20px;
   border: 2px solid black;
   border-radius: 10px;
+  align-items: center;
 }
 
 .form-container {
@@ -110,8 +117,18 @@ main {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Optional: change background color */
+}
 input[type="text"] {
   width: 90%; /* Adjust the width as needed */
   padding: 15px; /* Increase padding for a bigger input box */

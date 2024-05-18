@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <main>
+    < main>
       <h1>JoJos ChatGPT Assistant</h1>
       
       <section className="chat-container">
@@ -76,7 +76,7 @@ function App() {
           value={message}
           placeholder="Type a message and click send"
           onChange={e => setMessage(e.target.value)}
-        />
+        /><br></br>
         <button type="submit">Send</button>
       </form>
       </div>
